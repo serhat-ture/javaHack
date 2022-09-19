@@ -1,4 +1,4 @@
-#javaHack Blog App
+## javaHack Blog App
 Users can post about Java Programming and also make a comment to particular posts.\
 User should define a unique title when posting.\
 Each post may have multiple comments and can be changeable.
