@@ -22,8 +22,7 @@ Java 8+, Spring Boot, PostgreSQL, Lombok, Spring Data JPA ( Hibernate), Tomcat, 
 </ul>
 
 ## Erd Diagram
-
-<img src="javaHack.erd" src="/Users/ahmetserhatture/Documents/javaHack/src/main/resources/static/javaHack.erd.png" width="500">
+<img width="483" alt="javaHack erd" src="https://user-images.githubusercontent.com/67038603/191129791-7acc6dc2-7bf9-413e-904d-3bf09c9161fe.png">
 
 
 Some method and body examples:
@@ -100,8 +99,7 @@ Some method and body examples:
 ```
 | Comment Table
 
-<img src="comment" src="/Users/ahmetserhatture/Documents/javaHack/src/main/resources/static/comment.png" width="600">
-
+<img width="722" alt="comment" src="https://user-images.githubusercontent.com/67038603/191130011-bf78e6fc-729e-414c-ac63-9a05c5fe351e.png">
 | Post Table
 
-<img src="post" src="/Users/ahmetserhatture/Documents/javaHack/src/main/resources/static/post.png" width="600">
+<img width="627" alt="post" src="https://user-images.githubusercontent.com/67038603/191130066-4404ce7b-e1e7-4006-b06e-0d8190fec2c3.png">
