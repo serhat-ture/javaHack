@@ -1,25 +1,49 @@
 ## javaHack Blog App
 Users can post about Java Programming and also make a comment to particular posts.\
 User should define a unique title when posting.\
-Each post may have multiple comments and can be changeable.
+Each post may have multiple comments and can be changeable.\
+Admin is authorized  all request.
+serhat and ahmet are standard user that they can read posts and make comments, but have no authority to post. 
 
 ## Technologies
 
-Java 8+, Spring Boot, PostgreSQL, Lombok, Spring Data JPA ( Hibernate), Tomcat, Postman, Intellij IDEA
+Java 8+, Spring Boot, Spring Security, JWT, PostgreSQL, Lombok, Spring Data JPA ( Hibernate), Tomcat, Postman, Intellij IDEA
 
 
 ## Project Structure
 
 <ul>
+<li>config</li>
    <li>controller</li>
   <li>dto</li>
   <li>entity</li>
   <li>exception</li>
   <li>mapper </li>
   <li>repository</li>
+<li>security</li>
   <li>service</li>
   <li>serviceImp</li>
+<li>util</li>
 </ul>
+
+## Authorization
+| Username | Password |
+|----------|----------|
+| admin    | admin    |
+| serhat   | password |
+| ahmet    | ahmet    |
+
+| Type  | Method |
+|-------| ------ |
+| POST | http://localhost:8080/api/auth/signin |
+
+```
+{  "usernameOrEmail": "admin", 
+    "password": "admin"
+
+ }
+
+```
 
 ## Erd Diagram
 <img width="483" alt="javaHack erd" src="https://user-images.githubusercontent.com/67038603/191129791-7acc6dc2-7bf9-413e-904d-3bf09c9161fe.png">
